@@ -1,0 +1,17 @@
+#HLbanner{
+    width: 93%;
+    height: 180px;
+    margin: 0 auto;
+    // padding: 0 25px;
+    box-sizing: border-box;
+    background: #ccc;
+    border-radius: 13px;
+    overflow: hidden;
+    .swiper-container{
+        width: 100%;
+        height: 180px;
+        img{
+            height: 180px;
+        }   
+    }
+}

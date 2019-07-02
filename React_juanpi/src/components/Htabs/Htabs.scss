@@ -1,0 +1,172 @@
+#Htabs_box {
+    width: 100%;
+    margin-bottom: 100px;
+    overflow: hidden;
+    .t_head {
+        width: 100%;
+        height: 88px;
+        margin-left: 10px;
+        margin-bottom: 3px;
+        li {
+            // display: inline-block;
+            margin: 0 20px;
+            font-size: 30px;
+            line-height: 88px;
+            box-sizing: border-box;
+            height: 88px;
+            float: left;
+            color: #333;
+
+            &.active {
+                color: #ff464e;
+                border-bottom: 4px solid #ff464e;
+            }
+
+        }
+    }
+
+    .t_cont {
+        width: 100%;
+
+        .t_cont_1 {
+            width: 100%;
+
+            .t_special_list {
+                // width: 100%;
+                margin: 0 auto;
+
+                li {
+                    width: 373px;
+                    height: 486px;
+                    float: left;
+
+                    a {
+                        width: 373px;
+                        height: 486px;
+                        display: inline-block;
+                        text-align: left;
+
+                        .box_img {
+                            width: 373px;
+                            height: 374px;
+                            position: relative;
+
+                            img {
+                                width: 373px;
+                                height: 374px;
+                            }
+
+                            .brand_img {
+                                position: absolute;
+                                right: 18px;
+                                bottom: -25px;
+                                width: 102px;
+                                height: 52px;
+                                background: #fff;
+
+                                img {
+                                    width: 100px;
+                                    height: 50px;
+                                }
+                            }
+                        }
+
+                        .box_title {
+                            // margin-left: 20px;
+                            // margin-bottom: 5px;
+                            margin: 10px 0 5px 20px;
+
+                            p {
+                                color: #ff464e;
+                                font-size: 32px;
+                                // line-height: 40px;
+                            }
+                        }
+
+                        .box_info {
+                            margin-left: 20px;
+
+                            span {
+                                color: #3b3b3b;
+                                display: inline-block;
+                                width: 240px;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                            }
+
+                            em {
+                                float: right;
+                                color: #bbb;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .t_cont_2 {
+            width: 100%;
+
+            .t_goods_list {
+                // width: 100%;
+                margin: 0 auto;
+
+                li {
+                    width: 373px;
+                    height: 486px;
+                    float: left;
+
+                    a {
+                        width: 373px;
+                        height: 486px;
+                        display: inline-block;
+                        text-align: left;
+
+                        .box_img {
+                            width: 373px;
+                            height: 374px;
+                            position: relative;
+
+                            img {
+                                width: 373px;
+                                height: 374px;
+                            }
+
+                        }
+
+                        .box_price {
+                            // margin-left: 20px;
+                            // margin-bottom: 5px;
+                            margin: 10px 0 5px 20px;
+
+                            span {
+                                color: #ff464e;
+                                font-size: 32px;
+                                // line-height: 40px;
+                            }
+                            del{
+                                color: #bbb;
+                                font-size: 20px;
+                            }
+                        }
+
+                        .box_name {
+                            margin-left: 20px;
+
+                            p {
+                                color: #3b3b3b;
+                                display: inline-block;
+                                width: 240px;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

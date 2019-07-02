@@ -1,0 +1,81 @@
+#Hactivity_box {
+    width: 100%;
+    // height: 456px;
+    // margin-bottom: 300px;
+    .Hactivity_1 {
+        width: 100%;
+        height: 456px;
+        margin: 0 auto;
+
+        .Hactivity_1_lt {
+            width: 50%;
+            height: 100%;
+            float: left;
+            overflow: hidden;
+            a {
+                width: 375px;
+                height: 100%;
+                display: inline-block;
+                height: 456px;
+                // background: url(https://s2.juancdn.com/jas/190620/0/a/5d0adc9e33b0897307218c21_540x656.gif) no-repeat;
+                // background-size: cover;
+                img{
+                    height: 100%;
+                }
+            }
+        }
+
+        .Hactivity_1_rt {
+            width: 50%;
+            height: 456px;
+            float: left;
+            .rt_img1 {
+                display: inline-block;
+                height: 50%;
+                img{
+                    height: 100%;
+                }
+            }
+
+            .rt_img2 {
+                display: inline-block;
+                height: 50%;
+                img{
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .Hactivity_2 {
+        width: 100%;
+        height: 217px;
+        border-bottom: 20px solid #eee;
+        a{
+            width: 100%;
+            height: 217px;
+            display: inline-block;
+            // background: url(https://s2.juancdn.com/jas/190621/4/c/5d0c32bab6f8ea6fec5e96b7_1080x312.gif) no-repeat;
+            // background-size: cover;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .Hactivity_3 {
+        width: 100%;
+        height: 96px;
+        border-bottom: 20px solid #eee;
+        a{
+            width: 100%;
+            height: 96px;
+            display: inline-block;
+            // background: url(https://goods7.juancdn.com/jas/180518/c/6/5afe2f0db6f8ea096f2bfb35_1080x138.png?iopcmd=convert&Q=85&dst=png) no-repeat;
+            // background-size: cover;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

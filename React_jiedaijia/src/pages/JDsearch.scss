@@ -1,0 +1,65 @@
+#JDsearch_page {
+    .search_head {
+        width: 100%;
+        height: 88px;
+        background-color: #02c1de;
+        // text-align: left;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .btn_back {
+            width: 50px;
+        }
+
+        .head_title {
+            background-color: #0ba8c6;
+            height: 63px;
+            width: 70%;
+            display: inline-block;
+            img {
+                width: 35px;
+                margin-right: 10px;;
+            }
+
+            input {
+                width: 80%;
+                height: 63px;
+                border: none;
+                background-color: #0ba8c6;
+                &::-webkit-input-placeholder,
+                &::-webkit-input-placeholder {
+                    color: #fff;
+                }
+            }
+        }
+
+        .btn_more {
+            color: #fff;
+            // float: right;
+            line-height: 88px;
+            font-size: 30px;
+            margin-right: 10px;
+            ;
+        }
+    }
+
+    .search_body {
+        .input_empty {
+            width: 100%;
+            height: 600px;
+            margin-top: 240px;
+            text-align: center;
+            
+            img {
+                width: 200px;
+                margin-bottom: 33px;
+            }
+
+            p {
+                color: #999999;
+                font-size: 31px;
+            }
+        }
+    }
+}

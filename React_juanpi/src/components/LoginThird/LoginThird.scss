@@ -1,0 +1,39 @@
+#third_box{
+    width: 100%;
+    padding: 0 25px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #999;
+    h2{
+        margin-bottom: 60px;
+        font-size: 24px;
+    }
+    .third_icons{
+        width: 100%;
+        margin-bottom: 60px;
+        a{
+            margin: 0 40px;
+            img{
+                width: 96px;
+            }
+        }
+    }
+    .line{
+        width: 100%;
+        height: 1px;
+        background: #ebebeb;
+        margin-bottom: 30px;
+    }
+    .third_others{
+        display: flex;
+        justify-content: space-between;
+        li{
+            color: #c2c2c2;
+            line-height: 44px;
+            font-size: 22px;
+            img{
+                width: 44px;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+#LLhead{
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 82px;
+    line-height: 82px;
+    border-bottom: 1px solid #f4f4f4;
+    background: #fff;
+    background: #f3f3f3;
+    z-index: 99;
+    border-bottom: 1px solid #cccccc;
+   .btn_back{
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        margin-left: 10px;
+   } 
+   .head_title{
+        width: 66%;
+        font-size: 30px;
+        font-weight: bold;
+   }
+   .btn_register{
+        color: #02c1de;
+        font-size: 30px;
+        padding-right: 10px;
+        font-weight: bold;
+   }
+}

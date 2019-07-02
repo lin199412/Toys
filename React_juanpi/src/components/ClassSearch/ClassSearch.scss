@@ -1,0 +1,36 @@
+#ClassSearch_box {
+    width: 100%;
+    .inner_box {
+        width: 92%;
+        height: 60px;
+        margin: 20px auto;
+        border: 1px solid #bbb;
+        border-radius: 5px;
+        background-color: #fff;
+
+        a {
+            height: 60px;
+            width: 100%;
+            display: inline-block;
+            position: relative;
+            input {
+                height: 60px;
+                width: 100%;
+                display: inline-block;
+                padding-left: 64px;
+                box-sizing: border-box;
+                font-size: 26px;
+                color: #999;
+            }
+
+            img {
+                float: left;
+                width: 48px;
+                position: absolute;
+                left: 10px;
+                top: 10px;
+            }
+        }
+
+    }
+}

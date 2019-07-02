@@ -1,0 +1,52 @@
+#MLhead{
+    width: 100%;
+    height: 380px;
+    background: url(../../assets/mine_head_bg.png) no-repeat;
+    // background: url(https://www.jiedaijia.cn/h5/publicImg/me-beijing@2x.png) no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .admin_img{
+        margin-bottom: 25px;
+        img{
+            width: 108px;
+            height: 108px;
+            border-radius: 10px;
+            border: #fff 2px solid;
+        }
+    }
+    .btn_login{
+        span{
+            font-size: 38px;
+        }
+    }
+    .admin_info{
+        .admin_name{
+            margin-bottom: 25px;
+            span{
+                font-size: 33px;
+            }
+            img{
+                width: 30px;
+            }
+        }
+        .admin_num{
+
+            span{
+                display: inline-block;
+                font-size: 30px;
+                margin: 0 30px;
+                i{
+                display: block;
+                margin-bottom: 5px;
+                }
+                em{
+
+                }
+            }
+        }
+    }
+
+}

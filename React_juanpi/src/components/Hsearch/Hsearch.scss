@@ -1,0 +1,48 @@
+#Hsearch_box {
+    width: 100%;
+    height: 88px;
+    .inner_box{
+        display: flex;
+        width: 95%;
+        float: right;
+        // justify-content: center;
+        align-items: center;
+        .Hsearch_lt {
+            flex: 1;
+            height: 65px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            span{
+                margin: 0 8px;
+                color: rgb(153, 153, 153);
+                &:nth-child(1){
+                    margin-left: 20px;
+                    img{
+                        width: 40px;
+                    }
+                }
+                &:nth-child(2){
+                    width: 42px;
+                    height: 30px;
+                    display: inline-block;
+                    background: url(http://s2.juancdn.com/bao/170926/8/2/59ca3863a9fcf823cd42cfcb_84x60.png) no-repeat;
+                    background-size: cover;
+                }
+            }
+            
+        }
+    
+        .Hsearch_rt {
+            width: 88px;
+            height: 88px;
+    
+            img {
+                width: 88px;
+            }
+        }
+    }
+    
+}
